@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "clov",
+  "version": "${version}",
+  "name": "ClientOverhaul",
+  "description": "Client Overhaul blyat",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/clov/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.sgx.clov.client.ClovClient"
+    ],
+    "main": [
+      "me.sgx.clov.Clov"
+    ]
+  },
+  "mixins": [
+    "clov.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
