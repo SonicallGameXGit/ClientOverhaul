@@ -4,6 +4,7 @@
   "package": "me.sgx.clov.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "TitleScreenMixin"
   ],
   "client": [
   ],
